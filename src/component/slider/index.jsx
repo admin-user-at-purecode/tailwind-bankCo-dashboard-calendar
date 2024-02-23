@@ -11,5 +11,4 @@ function Slider({ children, ...props }) {
   );
 }
 
-
 export default Slider;

@@ -29,7 +29,7 @@ function CalenderFull() {
     {
       title: "Meeting",
       start: `2023-${month}-18T13:00:00`,
-      constraint: "availableForMeeting", // defined below
+      constraint: "availableForMeeting",
       color: "#936DFF",
       id: 3,
     },
@@ -50,7 +50,7 @@ function CalenderFull() {
     {
       title: "Meeting",
       start: `2023-${month}-27T13:00:00`,
-      constraint: "availableForMeeting", // defined below
+      constraint: "availableForMeeting",
       color: "#936DFF",
       id: 6,
     },
@@ -97,9 +97,9 @@ function CalenderFull() {
                   center: "title",
                   end: "prev next",
                 }}
-                initialDate={new Date()} // using new Date(); and set your scheduled on event array
-                navLinks={true} // can click day/week names to navigate views
-                businessHours={true} // display business hours
+                initialDate={new Date()}
+                navLinks={true}
+                businessHours={true}
                 editable={false}
                 events={events}
               />

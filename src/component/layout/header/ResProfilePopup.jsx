@@ -1,4 +1,3 @@
-
 function ResProfilePopup({ isActive }) {
   return (
     <div

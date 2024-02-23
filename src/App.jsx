@@ -2,12 +2,11 @@ import Layout from "./component/layout";
 import Calender from "./pages/calender";
 
 function App() {
-    return (
-        <>
-            <Layout />
-         
-        </>
-    );
+  return (
+    <>
+      <Layout />
+    </>
+  );
 }
 
 export default App;

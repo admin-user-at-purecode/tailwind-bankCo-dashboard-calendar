@@ -3,7 +3,7 @@ import card1 from "../../assets/images/payments/card-1.svg";
 import card2 from "../../assets/images/payments/card-2.svg";
 import card3 from "../../assets/images/payments/card-3.svg";
 import Slider from "../slider";
-import PaymentFilter from "../forms/PaymentFilter"
+import PaymentFilter from "../forms/PaymentFilter";
 import PaymentSelect from "../forms/PaymentSelect";
 import GreenBtn from "../button/AddMony";
 

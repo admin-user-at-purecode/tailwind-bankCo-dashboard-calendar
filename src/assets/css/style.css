@@ -270,9 +270,7 @@ body.modal-open {
   z-index: 9999;
 }
 
-.modal-overlay {
-  z-index: -1;
-}
+
 
 /* Settings Tab */
 .tab {
@@ -681,12 +679,8 @@ button.fc-button.fc-button-primary.fc-prev-button {
   .layout-wrapper .sidebar-wrapper {
     left: 0;
   }
-  .layout-wrapper .sidebar-wrapper + .aside-overlay {
-    left: 0;
-  }
-  .layout-wrapper.active .sidebar-wrapper + .aside-overlay {
-    left: -100%;
-  }
+ 
+ 
 }
 
 /* TODO: ===============RESPONSIVE END */

@@ -12,6 +12,4 @@ function GreenBtn({ text, action, className }) {
   );
 }
 
-
-
 export default GreenBtn;
