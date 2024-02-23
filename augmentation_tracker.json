@@ -133,7 +133,7 @@
 
   "Sizing_updates": ["Stretched the Revenue Flow to the entire center column"],
   "screen_and_layout_augmentations": [
-    "swapped position of revenue flow with efficiency card",
-    "dropped the My Wallet component to be below contacts table"
+   "swapped wallet and calender to down",
+   "made one copy of wallet"
   ]
 }
