@@ -111,7 +111,7 @@
     },
     "Wallet": {
       "count": "2",
-      "location": "right side of the calendarfull",
+      "location": "bright side of the calendarfull",
       "description": "wallet is a digital or physical device used to store and manage various forms of currency"
     },
     "PaymentSelect": {
@@ -133,7 +133,7 @@
 
   "Sizing_updates": ["Stretched the Revenue Flow to the entire center column"],
   "screen_and_layout_augmentations": [
-    "swapped position of revenue flow with efficiency card",
-    "dropped the My Wallet component to be below contacts table"
+    "swapped the position of calendarsm and wallet from top to bottom"
+
   ]
 }
