@@ -98,7 +98,7 @@
   "Calenderfull": {
         "count":1,
         "location": "below the header",
-        "description": "ca",
+        "description": "A calendar is a system used to organize and display dates",
         "functionality": "calendar is a system used to organize and display dates",
         "children": 
         {
@@ -111,7 +111,7 @@
     },
     "Wallet": {
       "count": "2",
-      "location": "bright side of the calendarfull",
+      "location": "right side of the calendarfull",
       "description": "wallet is a digital or physical device used to store and manage various forms of currency"
     },
     "PaymentSelect": {
@@ -128,12 +128,10 @@
   "Calendersm":{
     "count":"1",
     "location":"below the wallet",
-    "description":"calendar is a system used to organize and display dates"
+    "description":"A calendar is a system used to organize and display dates"
   },
 
-  "Sizing_updates": ["Stretched the Revenue Flow to the entire center column"],
-  "screen_and_layout_augmentations": [
-    "swapped the position of calendarsm and wallet from top to bottom"
-
+  "Screen_and_layout_augmentations": [
+    "A calendar is a system used to organize and display dates"
   ]
 }
