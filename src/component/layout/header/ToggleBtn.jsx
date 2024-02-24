@@ -1,4 +1,4 @@
-function ToggleBtn({ clickHandler, name, icon, active, children }) {
+function ToggleBtn({  name, icon, active, children }) {
   return (
     <div
       className="relative  h-[52px] w-[52px]  rounded-[12px] border border-success-300 dark:border-darkblack-400 cursor-pointer"

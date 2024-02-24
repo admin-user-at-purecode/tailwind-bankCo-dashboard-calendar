@@ -69,7 +69,7 @@ function CalenderFull() {
   };
   return (
     <section className="flex-1 2xl:mb-0 mb-6">
-      <div className="w-full bg-white dark:bg-darkblack-600 sm:px-10 sm:py-5 p-3 rounded-lg">
+      <div className="max-w-6xl m-auto bg-white dark:bg-darkblack-600 sm:px-10 sm:py-5 p-3 rounded-lg">
         <div className="calender-wrapper w-full relative h-full">
           <div className="w-full absolute top-2 left-0 max-w-fit">
             <div className="flex justify-between items-center">
