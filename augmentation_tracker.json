@@ -96,44 +96,22 @@
     }
   },
   "Calenderfull": {
-        "count":1,
-        "location": "below the header",
-        "description": "ca",
-        "functionality": "calendar is a system used to organize and display dates",
-        "children": 
-        {
-            "child1": {
-            "count": 1,
-            "location": "top of the component in right side",
-            "description": "previous and next icon",
-            "functionality": "when we click in previous and next icon calender is changing "
+    "count": 1,
+    "location": "below the header",
+    "description": "ca",
+    "functionality": "calendar is a system used to organize and display dates",
+    "children": {
+      "child1": {
+        "count": 1,
+        "location": "top of the component in right side",
+        "description": "previous and next icon",
+        "functionality": "when we click in previous and next icon calender is changing "
+      }
     }
-    },
-    "Wallet": {
-      "count": "2",
-      "location": "right side of the calendarfull",
-      "description": "wallet is a digital or physical device used to store and manage various forms of currency"
-    },
-    "PaymentSelect": {
-      "count": 1,
-      "location": "In the wallet, located at the upper right corner, there is a payment selection feature",
-      "description": "A dropdown menu is available"
-    },
-    "PaymentFilter": {
-      "count": 1,
-      "location": "Inside the card",
-      "description": "A dropdown menu is available"
-    }
-  },
-  "Calendersm":{
-    "count":"1",
-    "location":"below the wallet",
-    "description":"calendar is a system used to organize and display dates"
   },
 
   "Sizing_updates": ["Stretched the Revenue Flow to the entire center column"],
   "screen_and_layout_augmentations": [
-    "swapped position of revenue flow with efficiency card",
-    "dropped the My Wallet component to be below contacts table"
+    " The calendarsm and wallet components have been removed."
   ]
 }
