@@ -18,11 +18,6 @@
     "CalenderSm"
   ],
   "component_information": {
-    "header": {
-      "count": 1,
-      "location": "on the top of the page",
-      "description": "HeaderOne and HeaderTwo flexed",
-      "children": {
         "HeaderOne": {
           "count": 1,
           "location": "to the left of the container",
@@ -54,8 +49,6 @@
                 "StorePopUp": {
                   "count": 1,
                   "description": "opens on third toggle button clicked"
-                }
-              }
             },
             "Author": {
               "count": 1,
@@ -87,19 +80,24 @@
     "Sidebar": {
       "count": 1,
       "location": "to the left of the page, fixed",
-      "description": "collapsible, to the left, on toggled "
-    },
-    "SidebarV2": {
+      "description": "collapsible, to the left, on toggled",
+      "children":{
+          "menuItems":{
+              "description":"list of menus in column that contains svg followed by menu in a flexed container"
+          }
+      }
+  },
+  "SidebarV2": {
       "count": 1,
       "location": "to the left of the page, fixed",
-      "description": "collapsible, to the right, on toggled"
-    }
+      "description": "collapsible, to the right, on toggled",
+      "children":"svg of the menus in smaller screen and when toggled"
+  }
   },
   "Calenderfull": {
         "count":1,
         "location": "below the header",
-        "description": "ca",
-        "functionality": "calendar is a system used to organize and display dates",
+        "description": "calendar is a system used to organize and display dates",
         "children": 
         {
             "child1": {
@@ -133,7 +131,6 @@
 
   "Sizing_updates": ["Stretched the Revenue Flow to the entire center column"],
   "screen_and_layout_augmentations": [
-    "swapped position of revenue flow with efficiency card",
-    "dropped the My Wallet component to be below contacts table"
+ "removed card from wallet"
   ]
 }
