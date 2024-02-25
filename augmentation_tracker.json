@@ -18,11 +18,6 @@
     "CalenderSm"
   ],
   "component_information": {
-    "header": {
-      "count": 1,
-      "location": "on the top of the page",
-      "description": "HeaderOne and HeaderTwo flexed",
-      "children": {
         "HeaderOne": {
           "count": 1,
           "location": "to the left of the container",
@@ -82,7 +77,6 @@
           },
           "children_orientation_description": "flexed"
         }
-      }
     },
     "Sidebar": {
       "count": 1,
@@ -93,7 +87,7 @@
       "count": 1,
       "location": "to the left of the page, fixed",
       "description": "collapsible, to the right, on toggled"
-    }
+    
   },
   "Calenderfull": {
         "count":1,
@@ -133,7 +127,7 @@
 
   "Sizing_updates": ["Stretched the Revenue Flow to the entire center column"],
   "screen_and_layout_augmentations": [
-    "swapped position of revenue flow with efficiency card",
-    "dropped the My Wallet component to be below contacts table"
+    "The ModeToggler, MessagePopup, ToggleBtn, and NotificationPopup components have been removed."
+
   ]
 }
