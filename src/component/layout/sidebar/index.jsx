@@ -7,24 +7,9 @@ import { useState } from "react";
 export function Svg() {
   return (
     <span className="item-ico">
-      <svg
-        width="18"
-        height="21"
-        viewBox="0 0 18 21"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          className="path-1"
-          d="M0 8.84719C0 7.99027 0.366443 7.17426 1.00691 6.60496L6.34255 1.86217C7.85809 0.515019 10.1419 0.515019 11.6575 1.86217L16.9931 6.60496C17.6336 7.17426 18 7.99027 18 8.84719V17C18 19.2091 16.2091 21 14 21H4C1.79086 21 0 19.2091 0 17V8.84719Z"
-          fill="#1A202C"
-        />
-        <path
-          className="path-2"
-          d="M5 17C5 14.7909 6.79086 13 9 13C11.2091 13 13 14.7909 13 17V21H5V17Z"
-          fill="#22C55E"
-        />
-      </svg>
+   
+       
+       
     </span>
   );
 }
@@ -227,39 +212,11 @@ function Sidebar({ handleActive }) {
           </div>
         </div>
         <div className="upgrade-wrapper mb-[26px] h-[172px] w-full pr-[24px]">
-          <div
-            className="upgrade-banner relative h-full w-full rounded-lg"
-            style={{ backgroundImage: `url(${bg})` }}
-          >
-            <div
-              style={{ left: `calc(50% - 20px)`, top: `-20px` }}
-              className="absolute flex h-10 w-10 items-center justify-center rounded-full border border-white bg-success-300"
-            >
-              <span>
-                <Svg />
-              </span>
-            </div>
-            <h1 className="mb-2 pt-8 text-center text-xl font-bold text-white">
-              Unlimited Cashback
-            </h1>
-            <p className="mb-2 px-7 text-center text-sm leading-5 text-white opacity-[0.5]">
-              Instant 2% back on all your spend to your account.
-            </p>
-            <div className="flex justify-center">
-              <a href="#">
-                <div className="flex h-[36px] w-[134px] justify-center rounded-lg bg-success-300 transition duration-300 ease-in-out hover:bg-success-400">
-                  <div className="flex items-center space-x-1.5">
-                    <span className="text-sm font-semibold text-white">
-                      Upgrade Now
-                    </span>
-                    <Svg />
+          
+            
+           
                   </div>
                 </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
     </aside>
   );
 }
