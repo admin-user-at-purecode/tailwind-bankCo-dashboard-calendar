@@ -1,5 +1,3 @@
-import logo from "../../../assets/images/logo/logo-short.svg";
-import logoW from "../../../assets/images/logo/logo-short-white.svg";
 import { Svg } from "./index";
 
 const menuItems = [
@@ -28,8 +26,6 @@ function SidebarV2() {
       <div className="sidebar-wrapper-collapse relative top-0 z-30 w-full">
         <div className="sidebar-header sticky top-0 z-20 flex h-[108px] w-full items-center justify-center border-b border-r border-b-[#F7F7F7] border-r-[#F7F7F7] bg-white dark:border-darkblack-500 dark:bg-darkblack-600">
           <a href="#">
-            <img src={logo} className="block dark:hidden" alt="logo" />
-            <img src={logoW} className="hidden dark:block" alt="logo" />
           </a>
         </div>
         <div className="sidebar-body w-full pt-[14px]">
