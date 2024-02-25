@@ -18,10 +18,7 @@
     "CalenderSm"
   ],
   "component_information": {
-    "header": {
-      "count": 1,
-      "location": "on the top of the page",
-      "description": "HeaderOne and HeaderTwo flexed",
+   
       "children": {
         "HeaderOne": {
           "count": 1,
@@ -55,7 +52,7 @@
                   "count": 1,
                   "description": "opens on third toggle button clicked"
                 }
-              }
+              
             },
             "Author": {
               "count": 1,
@@ -109,11 +106,7 @@
             "functionality": "when we click in previous and next icon calender is changing "
     }
     },
-    "Wallet": {
-      "count": "2",
-      "location": "right side of the calendarfull",
-      "description": "wallet is a digital or physical device used to store and manage various forms of currency"
-    },
+    
     "PaymentSelect": {
       "count": 1,
       "location": "In the wallet, located at the upper right corner, there is a payment selection feature",
@@ -133,7 +126,7 @@
 
   "Sizing_updates": ["Stretched the Revenue Flow to the entire center column"],
   "screen_and_layout_augmentations": [
-    "swapped position of revenue flow with efficiency card",
-    "dropped the My Wallet component to be below contacts table"
+    "swapped position of calendersm and calenderfull"
+    
   ]
 }
